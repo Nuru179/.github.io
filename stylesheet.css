@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Yu Mincho;
+  margin: 0;
+  text-align: center;
+}
+
+.start {
+  z-index: 20;
+  width: 100%;
+  height: 100%;
+}
+
+.start img :hover {
+  opacity: 0;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-title {
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.header-left a {
+  color: #02ccba;
+  float: left;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.header-left :hover {
+  opacity: 0.5;
+}
+
+.main {
+  z-index: 10;
+  padding: 50px 0 200px 0;
+  background-image: url("img/726523_s.jpg");
+  background-size: cover;
+}
+
+.main-title h2 {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  font-size: 50px;
+  letter-spacing: 20px;
+  color: #fff;
+}
+
+.twitter {
+  background-color: #55acee;
+  padding: 8px 30px;
+  display: inline-block;
+  border-radius: 30px;
+}
+
+.twitter a {
+  color: #fff;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.twitter img {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+.twitter:hover {
+  opacity: 0.7;
+}
+
+.main2 {
+  background-image: url("img/2279558_s.jpg");
+  background-size: cover;
+}
+
+.main2-comment {
+  margin-top: 50px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main2-comment img {
+  width: 25px;
+}
+
+.main2 ul ol {
+  padding: 0;
+  position: relative;
+}
+
+.main2 ul ol {
+  color: black;
+  border-left: solid 8px orange;
+  /*左側の線*/
+  background: #D7EEFF;
+  /*背景色*/
+  margin-bottom: 5px;
+  /*下のバーとの余白*/
+  line-height: 1.5;
+  border-radius: 0 15px 15px 0;
+  /*右側の角だけ丸く*/
+  padding: 0.5em;
+  list-style-type: none !important;
+}
+
+.main-messeage h3 {
+  font-size: 27px
+}
+
+.menber {
+  font-size: 27px;
+}
+
+.menber ul ol {
+  font-size: 17px;
+}
+
+.comment h1 {
+  font-size: 27px
+}
+
+.comment {
+  width: 500px;
+  margin-bottom: 50px 0;
+}
+
+.comment h2 {
+  font-size: 17px;
+  font-weight: normal;
+  background-color: #D7EEFF;
+  text-align: left;
+  padding: 30px;
+  border-radius: 30px;
+  border-color: #005FFF;
+}
+
+footer {
+  background-image: url("img/2081235_s.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100px;
+}
+
+.footer-link a{
+  float: left;
+  font-size: 30px;
+  text-decoration: none;
+  color: blue;
+}
+
+.footer-link :hover{
+  opacity: 0.7;
+}
+
+.footer-top a{
+  float: left;
+  font-size: 25px;
+  color: rgb(42, 0, 130);
+  text-decoration: none;
+  padding-left: 20px;
+
+}
+
+.footer-top :hover{
+  opacity: 0.7;
+}
